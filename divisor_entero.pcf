@@ -1,0 +1,12 @@
+#------ Entradas Botones
+set_io --warn-no-port clock 94
+set_io --warn-no-port up 31  #-- output
+set_io --warn-no-port down 34  #-- 
+set_io --warn-no-port reset 32  #-- 
+
+set_io --warn-no-port ok 33  #-- 
+#------ Salidas LEDs
+set_io --warn-no-port cociente[3] 4  #-- output
+set_io --warn-no-port cociente[2] 3  #-- output
+set_io --warn-no-port cociente[1] 2  #-- output
+set_io --warn-no-port cociente[0] 1  #-- MSB
